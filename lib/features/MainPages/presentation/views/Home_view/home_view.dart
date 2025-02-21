@@ -1,5 +1,7 @@
+
 import 'package:finalproject/features/MainPages/presentation/views/Home_view/widgets/custom_textfield.dart';
 import 'package:flutter/material.dart';
+
 
 class HomeView extends StatelessWidget {
   const HomeView({super.key});
@@ -12,7 +14,8 @@ class HomeView extends StatelessWidget {
         child: Column(
           children: [
             SizedBox(height: 50,),
-            CustomTextfield()
+            CustomTextfield(),
+            
           ],
         ),
       ),
